@@ -1,0 +1,1 @@
+This is minospeed007 first git projects
