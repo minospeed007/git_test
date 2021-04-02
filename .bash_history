@@ -695,3 +695,599 @@ firebase.json
 firefox js.html
 google-chrome js.html
 firefox workstation/js.html
+cd
+cd workstation
+ls
+touch ssh.txt
+ls
+chrome js.html
+firefox js.html
+nmp -v
+cd worksation
+cd workstation
+npm -v
+npm install -g @angular/cli
+ng help
+npm install -g @angular/cli
+npm install -g @angular/cli sudo
+cd ..
+npm npm install -g @angular/cli sudo
+su
+cd workstation
+su
+cd workstation
+npm install -g @angular/cli
+cd workstation
+@angular/cli
+npm install -g @angular/cli
+cd workstation
+npm install -g @angular/cli
+tsc test.ts
+cd workstation
+tsc test.ts
+node test.ts
+-- target
+node --target
+cd ~
+cd typeproject
+node tes2.js
+node test2.js
+tsc test2.ts
+cd typeproject
+tsc test2.ts
+node test2.ts
+cd ..
+cd..
+cd typeproject
+tsc test.ts
+node test.ts
+cd ~
+cd typeproject
+tsc test2.ts
+tsc /.test2,ts
+tsc /.test2.ts
+tsc ./test2.ts
+cd typeproject
+tsc test2.ts
+ls
+touch test.ts
+ls
+node test2.js
+cd~
+cd ~
+tsc --v
+sudo apt update -g tsc
+npm install -g ts-node su
+sudo npm install -g ts-node
+npm install -g ts-node
+npx tsc
+cd typeproject
+cd ~
+cd typeproject
+tsc test2.ts
+ls
+tsc test.ts
+nodejs test.js
+node test.js
+sudo npm install -g @angular/cli
+ng --version
+ng new hello-world
+ng serve
+ng hello-world
+cd hello-world
+ng serve
+cd hello-world
+ng serve
+cd `
+
+
+cd ~
+ng mkdir Angular
+cd ~
+ng new hello-mars
+cd ~
+ng new hello-venus
+cd~
+cd ~
+sudo apt install wget
+wget https://go.microsoft.com/fwlink/?LinkID=760868
+sudo apt install index.html
+sudo dpkg -i index.html.deb
+sudo apt install /home/global/Downloads/code_1.51.1-1605051630_amd64 (3).deb
+cd ~
+/home/global/Downloads/code_1.51.1-1605051630_amd64 (3).deb
+sudo apt install /home/global/Downloads/code_1.51.1-1605051630_amd64 (3).deb
+                                 npm install -g create-react-app
+npm install -g create-react-app
+npx create-react-app my-app
+cd my-app
+npm start
+cd my-App
+ls
+cd my-app
+ls
+cat src
+cd src
+cd my-app
+ls src
+cat App.js
+ls App.js
+open App.js
+less App.js
+less ./App.js
+less index.css
+cd src
+less App.js
+cd my-app
+cd src
+sudo gedit App.js
+less App.js
+cd my-app
+cd src
+vscode App.js
+python
+tar xzvf Django-x.xx.tar.gz
+tar xzvf django-master.tar.gz
+sudo apt install django
+sudo apt-get update
+sudo apt-get install python3-pip
+pip3 -v
+pip3-v
+sudo apt-get install python3-pip
+pip3 -v
+pip3 install Django
+django-admin -version
+sudo apt install python3-django
+django-admin.py --version
+django-admin startproject myproject
+cd myproject
+ls
+cd `
+python manage.py help
+cd myproject
+python manage.py help
+cd manage.py
+ls
+cat manage.py
+python manage.py help
+.
+python manage.py runserver
+django-admin startproject Spring
+ls
+django-admin startproject lecture
+ls
+cd lecture
+ls
+code .
+/usr/bin/python3 /home/global/.vscode/extensions/ms-python.python-2020.12.424452561/pythonFiles/pyvsc-run-isolated.py pip install -U pylint --user
+python manage.py runserver
+cd lecture
+ls
+python manage.py runserver
+code .
+python manage.py runserver
+cd ~
+cd Spring
+ls
+python manage.py runserver
+python manage.py startapp newApp
+cd Spring
+python manage.py startapp newApp
+cd lecture
+ls
+code .
+cd lecture
+python manage.py runserver
+Python Manage.py runserver
+python manage.py runserver
+cd lecture
+python
+$ tar xzvf Django-x.xx.tar.gz
+tar xzvf Django-x.xx.tar.gz
+pip3 install Django
+cd lecture
+manage.py runserver
+python manage.py runserver
+django-admin --version
+python manage.py help
+cd lecture
+python manage.py help
+cd ~
+python manage.py runserver
+cd lecture
+ls
+python manage.py help
+python
+                                                                                                                               cd lecture
+python3 manage.py runserver
+python3 manage.py startapp springapp
+ls
+cd springapp
+code .
+cd lecture
+cd .
+cd ~
+cd lecture
+code .
+cd springapp
+python3 manage.py runserver
+cd ~
+cd lecture
+python3 manage.py runserver
+cd springapp
+python3 manage.py runserver
+cd lecture
+python3 manage.py runserver
+                            cd lect
+python manage.py runserver
+python3 manage.py runserver
+python3 manage.py startapp ects
+ls
+cd ects
+python3 manage.py runserver
+cd ~
+cd lect
+python3 manage.py runserver
+cd ects
+code .
+cd ./lect
+cd ~
+cd lect
+cdoe .
+code .
+ls
+python3 manage.py runserver
+cd lecture
+code .
+python3 manage.py runserver
+mkdir django-app
+ls
+clear
+cd django-app
+django-admin
+clear
+django-admin createapp
+django-admin startapp go-app
+clear
+cd ~
+ls
+django-admin startproject go-app
+django-admin startproject game
+clear
+cd game
+code .
+python3 manage.py runserver
+python3 manage.py startapp hellogame
+python manage.py runserver 
+python3 manage.py runserver
+cd lecture
+python3 manage.py runserver
+cd spring
+cd lect
+python3 manage.py runserver
+clear
+code .
+python3 manage.py runserver
+clear
+python3 manage.py runserver
+python
+cd lect
+python3 manage.py runserver
+clear
+python manage.py startapp newyear
+python3 manage.py startapp newyear
+ls
+python3 manage.py runserver
+clear
+python3 manage.py runserver
+clear
+python3 manage.py runserver
+CLEAR
+clear
+python3 manage.py startapp todolist
+ls
+code .
+python3 manage.py runserver
+cd lect
+python3 manage.py runserver
+clear
+python3 manage.py runserver
+cd lects
+cd lect
+python3 manage.py runserver
+clear
+python3 manage.py runserver
+clear
+python3 manage.py migrate
+python3 manage.py runserver
+clear
+python3 manage.py runserver
+cd lects
+cd lect
+python3 manage.py runserver
+cd lect
+python3 manage.py runserver
+code .
+python3 manage.py runserver
+clear
+python3 manage.py runserver
+clear
+python3 manage.py startapp
+python3 manage.py startapp todo
+code .
+clear
+python3 manage.py runserver
+clear
+python3 manage.py runserver
+clear
+cd lect
+python3 manage.py runserver
+clear
+python3 manage.py runserver
+cd lect
+ls
+pyhton3 manage.py startapp tasks
+python3 managee.py startapp tasks
+python3 manage.py startapp tasks
+rm- todo
+clear
+python3 manage.py startapp tasks
+cd lect
+python3 manage.py startserver tasks
+clear
+python3 manage.py sartapp tasks
+clear
+python3 manage.py startapp tasks
+code .
+python3 manage.py runserver
+clear
+python3 manage.py runserver
+clear
+python3 manage.py runserver
+cd lect
+python3 manage.py runserver
+clear
+python3 manage.py runserver
+clear
+python3 manage.py runserver
+clear
+cd ~
+rmdir lect
+python3 manage.py startproject lecture
+rm -r lect
+cd lect
+                                                                                django-admin startproject orange
+cd orange
+python3 manage.py runserver
+clear
+python3 manage.py startapp oran
+code .
+python3 manage.py runserver
+python3 manage.py migrate
+clear
+python3 manage.py runserver
+clear
+python3 manage.py runserver
+clear
+cd ~
+cd lecture
+ls
+code .
+python3 manage.py runserver
+clear
+django-admin startproject fruits
+ls
+cd fruits
+cd ~
+django-admin startproject fruit
+cd fruit
+python3 manage.py startapp apple
+ls
+code .
+python3 manage.py runserver
+cd lect
+cd lects
+python3 manage.py runserver
+cd fruit
+python3 manage.py runserver
+pyhton3 manage.py runserver
+python3 manage.py runserver
+clear
+cd ~
+touch flights.sql
+sqlite3 flights.sql
+sudo apt install sqlite3
+clear
+sqlite3 flights.sql
+django-admin startproject Airline
+cd Airline
+code .
+pyhton3 manage.py startAPP flights
+python3 manage.py startapp flights
+code .
+python3 manage.py makemigrations
+clear
+python3 manage.py runserver
+clear
+python3 manage.py makemigrations
+python3 manage.py migrate
+ls
+python3 manage.py shell
+cd Airline
+python3 manage.py shell
+cd fruits
+cd fruit
+python3 manage.py runserver
+ls
+clear
+cd Airline
+ls
+cd flights
+sqlite3
+cd Airline
+sqlite3
+cd Airline
+sqlite3
+cd Airline
+.code
+code .
+ls
+python3 manage.py shell
+npm install -g firebase-tools
+npm install -g npm
+sudo apt npm install -g npm
+npm cache clean
+npm cache clean --f
+npm cache verify
+npm -v
+npm install -g firebase-tools
+sudo npm install -g firebase-tools
+mkdir fire
+cd fire
+firebase login
+firebase init
+cd fire
+firebase init
+ls
+code .
+ls
+mkdir basefire
+code .
+cd basefire
+ls
+firebase login
+firebase init
+firebase deploy
+cd ~
+firebase deploy
+node -v
+mkdir first-node
+cd first-node
+code .
+node nodeapp.js
+cd first-node
+node nodeapp.js
+clear
+nodeapp.js
+node nodeapp.js
+clear
+node nodeapp.js
+jshint nodeapp.js
+node nodeapp.js
+clear
+node nodeapp.js
+clear
+node nodeapp.js
+cd basefire
+cd global
+cd basefire
+mkdir firespring
+cd firespring
+git init
+ls
+git clone https://github.com/minospeed007/Another
+cd another
+cd Another
+ls
+code .
+clear
+git init
+git add Another
+git add firespring/Another
+ls
+cd~
+cd ~
+firebase login
+firbase init
+firebase init
+cd init
+cd global
+git init
+git clone https://github.com/minospeed007/global
+cd global
+ls
+git ls -l
+ls -l
+git branch
+git clone -b springbranch https://github.com/minospeed007/global
+ls -l
+git add -all
+git add --all
+git help submodule
+git  submodule add https://github.com/minospeed007/Another
+git submodule add https://github.com/minospeed007/global
+git commit -am "added submodule"
+git status
+git push 
+git submodule https://github.com/minospeed007/global
+git submodule add https://github.com/minospeed007/global
+cd ..
+git submodule add https://github.com/minospeed007/global
+git commit -am "submodule add"
+git fetch
+git push 
+cd global cd ~
+cd ~
+npm init
+mkdir
+mkdir netlify
+cd netlify
+code .
+touch net.html, net.css
+ls 
+code .
+cd ~
+npm i find-package-json
+npm install -g npm 
+cd netlify
+npm init
+git init
+ls
+git remote add https://github.com/minospeed007/git_test
+git remote
+git add pb https://github.com/minospeed007/git_test
+git remote add pb https://github.com/minospeed007/git_test
+remote
+sudo snap install remote
+git remote
+remote -v
+remote fetch 
+git remote fetch
+git remote set https://github.com/minospeed007/git_test
+git commit -am "new project"
+git add net.css
+git add net.html
+git status
+git fetch https://github.com/minospeed007/git_test
+git push -u origin main
+git push -u remote https://github.com/minospeed007/git_test
+git push -u origin master 
+git push https://github.com/minospeed007/git_test main
+git push https://github.com/minospeed007/git_test master
+git remote show origin
+git remote show https://github.com/minospeed007/git_test
+git status
+git commit -am " new netflify"
+git push https://github.com/minospeed007/git_test HEAD branch main
+npm init netlify
+npm init --yes
+cd ~
+cd home
+cd netlify
+cd package.json
+cd netlify
+ls
+git add netlify
+git add netlify/*
+cd git_test
+git add netlify
+cd ..
+git init
+cd git_test
+git add netlify
+cd  ~
+cd git_test
+git remote
+git fetch remote
+git login
+git column
