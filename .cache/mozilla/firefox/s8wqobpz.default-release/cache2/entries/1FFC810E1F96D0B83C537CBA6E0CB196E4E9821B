@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html id='custDomain'>
+<head>
+<script src='//cdn.optimizely.com/js/1197428788.js' type='text/javascript'></script>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="68pKjETLPtlOTU4ky7LhStnFoGeVA5/Nknv3r4FYIThAI4DqhzzAWmmlwcFmjNkhflpq0ZYQALW5qW8J43LSyg==" />
+<meta charset='UTF-8'>
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"1310fd97f1","applicationID":"71497409","transactionName":"IVZWR0tbWF4BFxhWVw1SSxxaQUdGCwhoRl0DXQ==","queueTime":1,"applicationTime":833,"agent":""}</script>
+<script>(window.NREUM||(NREUM={})).loader_config={licenseKey:"1310fd97f1",applicationID:"71497409"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<title>Chapter 1: Basics and Navigation | Conquering the Command Line |  Softcover.io</title>
+<link href='/apple-touch-icon-precomposed.png' rel='apple-touch-icon-precomposed'>
+<link href='/favicon.png' rel='icon'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,300,700|Open+Sans+Condensed:700|Josefin+Slab:400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" media="screen" href="https://www.softcover.io/assets/reading-8092fc444e0fbcf4a66d4b74e33a1d71c863e5d023b6f3c3f707a90dff5c9345.css" />
+<link href='https://www.softcover.io/assets/print-f4bd271fd41b8086410e78c14546336605a29e5c72c2d08b094c7ccfe03de6c4.css' media='print' rel='stylesheet' type='text/css'>
+<script>
+  window.Config = {
+    env: "production",
+    bucket: "softcover",
+    previewBucket: "softcover-cloud",
+    userId: false
+  }
+</script>
+<script src='//code.jquery.com/jquery-2.0.3.min.js' type='text/javascript'></script>
+<script src='//cdn.jsdelivr.net/formalize/0.1/js/jquery.formalize.min.js' type='text/javascript'></script>
+<script src='//cdn.jsdelivr.net/underscorejs/1.6.0/underscore-min.js' type='text/javascript'></script>
+<script src='https://js.stripe.com/v3/' type='text/javascript'></script>
+<script src='https://www.google.com/jsapi' type='text/javascript'></script>
+<script id="pap_x2s6df8d" src="https://learnenough.postaffiliatepro.com/scripts/trackjs.js" type="text/javascript"></script>
+<script type="text/javascript" id="pap_x2s6df8d" src="https://learnenough.postaffiliatepro.com/scripts/voa0j7"></script>
+<script src="https://www.softcover.io/assets/application-8593982fae11c54d4ac1c57bd560360f36ea39c61b005629a7c0b92904f93737.js"></script>
+
+<meta content='http://conqueringthecommandline.com' property='og:url'>
+<meta content='Conquering the Command Line' property='og:title'>
+<meta content="Learn to master and conquer the most valuable and useful command line tools for Unix and Linux based systems.&#x000A;&#x000A;In this book you will find not only the most useful command line tools you need to know, but also the most helpful options and flags for those tools.&#x000A;&#x000A;Conquering the Command Line isn't just a rehash of the MAN page for these tools, but rather a human-readable walk-through of these tools to make you instantly more productive in your daily development life." property='og:description'>
+<meta content='Softcover.io' property='og:site_name'>
+<meta content='https://softcover.s3.amazonaws.com/8/unix_commands/images/cover-web.png' property='og:image'>
+<meta content='https://softcover.s3.amazonaws.com/8/unix_commands/images/cover-web.png' property='og:image:secure_url'>
+<meta content='image/png' property='og:image:type'>
+<meta content='500' property='og:image:width'>
+<meta content='500' property='og:image:height'>
+<meta content='36' property='book_id'>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('require', 'linker');
+  ga('linker:autoLink', ['conqueringthecommandline.com', 'softcover.io']);
+
+  ga('create', 'UA-46858978-1', 'softcover.io', {'allowLinker': true});
+  ga('send', 'pageview');
+
+  ga('create', 'UA-46818740-1', 'auto', {
+    'name': 'book',
+    'allowLinker': true
+  });
+
+  ga('book.send', 'pageview');
+
+</script>
+
+<!-- Facebook Pixel Code -->
+
+
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+
+<script src='//www.softcover.io/books/36/custom_domain_js.js?is_anthology=false?nocache=0.03492001514517762' type='text/javascript'></script>
+</head>
+<body class='reading'>
+<noscript>
+<div id='noscript'>
+<h2>Please enable javascript</h2>
+This site requires you to allow JavaScript to run in the browser for all features to work. Thank you!
+</div>
+</noscript>
+<script type='text/javascript'>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+window.fbAsyncInit = function() {
+FB.init({
+appId      : '145973438749643',
+xfbml      : true,
+version    : 'v2.0'
+});
+};
+(function(d, s, id){
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) {return;}
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/sdk.js";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<div class='container'>
+<div id='header'>
+<div class='wrapper'>
+<a class="logo" href="http://www.softcover.io/"><img src="https://www.softcover.io/assets/logo-cb2b799a5b84e014246f782d1e9330447da7f588ec6ca125890c7cdcfcf9f460.png" alt="Logo" />
+<a id="mobileMenu" href="javascript://"><div class='closedMenu'>
+‚â°
+<span>Menu</span>
+</div>
+<div class='openMenu'>
+x
+<span>Close</span>
+</div>
+</a></a><div class='j_userHeader closeLeft' style='display:inline'><ul class='headerMenu'>
+<li><a href="http://www.softcover.io/login">Log In</a></li>
+<li><a href="http://www.softcover.io/account/sign_up">Sign Up</a></li>
+</ul>
+</div>
+<div id='dropBG'></div>
+<div class='clear'></div>
+</div>
+</div>
+
+<div class='sc-content'>
+<!-- - provide :signupCopy do -->
+<!-- %strong GET A FREE EMAIL COURSE ON WEB DEVELOPMENT -->
+<!-- %p Sign up now to get a free 8-part email course on learning web development. This will also ensure you get updates about the Ruby on Rails Tutorial and related products (such as the <a href="http://learnenough.com/">Learn Enough to Be Dangerous</a> series of tutorials). -->
+<link rel="stylesheet" media="screen" href="https://softcover.s3-us-west-2.amazonaws.com/8/unix_commands/html/stylesheets/custom.css?X-Amz-Expires=14400&amp;X-Amz-Date=20201102T150519Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJMNNDDBSYVXVHGAA/20201102/us-west-2/s3/aws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=21233edfb4eb78675598c11fb2d34e3e38f642d948d92ac9b7bc03655c7d9887" />
+<div class='page-book'>
+<div class='bookHeader'>
+<div class='wrapper'>
+<div class='bookCover'>
+<a href="/book"><img class="cover" src="https://softcover.s3.amazonaws.com/8/unix_commands/images/cover-web.png" alt="Cover web" />
+<img class="coverBG" src="https://www.softcover.io/assets/cover_bg-a267f19fd8b824c7c0873181647cc75bb6d54a494aa1942f1e24244792c9c684.png" alt="Cover bg" />
+</a></div>
+<div class='bookInfo'>
+<h1>
+Conquering the Command Line
+<span class='j_subtitle'>Unix and Linux Commands for Developers</span>
+<strong class='book-author-name'>Mark Bates</strong>
+</h1>
+<p class='j_description'>
+ Learn to master and conquer the most valuable and useful command line tools for Unix and Linux based systems. 
+
+ In this book you will find not only the most useful command line tools you need to know, but also the most helpful options and flags for those tools. 
+
+ Conquering the Command Line isn‚Äôt just a rehash of the MAN page for these tools, but rather a human-readable walk-through of these tools to make you instantly more productive in your daily development life. 
+
+</p>
+
+<div class='bookControls'>
+<a href="/"><button class='transBG'>Book Info</button>
+</a><a href="mailto:books@markbates.com"><button class='transBG'>Contact Author</button>
+</a></div>
+
+</div>
+
+</div>
+</div>
+
+<div id='bookMenu'>
+<div class='side-menu' id='book-side'>
+<div class='side-menu-toggle'>
+<a class="side-menu-close" onclick="$(&#39;.page-book&#39;).addClass(&#39;side-menu-closed&#39;)" href="javascript://"><i class='fas fa-times'></i>
+</a><a class="side-menu-open" onclick="$(&#39;.page-book&#39;).removeClass(&#39;side-menu-closed&#39;)" href="javascript://"><i class='fas fa-bars'></i>
+</a></div>
+<ul></ul>
+</div>
+<div class='bookMenu-actions j_downloadLinks'><a onclick="$(&#39;#bookMenuEmail&#39;).toggleClass(&#39;open&#39;); return false" class="buttonStyle greyButton iEmailUpdate" href=""><i class='fas fa-heart'></i>
+Mailing List
+</a><a class="buttonStyle attention" href="/#pricing">Buy Now</a>
+</div>
+<div class='bookMenuSearch'>
+<a id="j_singlePage" href="javascript://"><i class='fas fa-search'></i>
+Single Page
+</a></div>
+<div class='bookMenu-arrows'>
+<a class="leftArrow" href="javascript://">‚óÑ</a>
+<a class="upArrow" href="javascript://">‚ñ≤</a>
+<a class="rightArrow" href="javascript://">‚ñ∫</a>
+<div id='chapter-title'></div>
+</div>
+<div id='bookMenuEmail'>
+<label>Follow this book to receive email updates from the author.</label>
+<div class='j_followBookForm'><div id='j_bookFollowForm'>
+<form action="//conqueringthecommandline.com/books/36/follow" accept-charset="UTF-8" data-remote="true" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<!-- %input{name: "name", type: "text", placeholder: "YOUR NAME"} -->
+<input name='email' placeholder='Your email address' type='text'>
+<input class='greyButton optClick_follow' data-disable-with='Submitting...' type='submit' value='Follow Author'>
+</form>
+
+<p id='j_bookFollowNotice' style='display:none'></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class='book-wr'>
+<div id='bookHtml'>
+<div id='book'>
+</div>
+</div>
+<div class='book-bottom-menu'>
+<div class='bookMenu-arrows'>
+<a class="leftArrow" href="javascript://">‚óÑ</a>
+<a class="upArrow" href="javascript://">‚ñ≤</a>
+<a class="rightArrow" href="javascript://">‚ñ∫</a>
+</div>
+</div>
+</div>
+<div id='bookContentNotAvailable'>
+<img src="https://www.softcover.io/assets/empty_content-bfd29214ec2dceaedc8664ee5d1379fb01c94658fb95ac9edde6d31d3d0e7484.png" alt="Empty content" />
+Sorry, content not available
+</div>
+</div>
+<div class='emailPitch' id='bookEmailModal'>
+<a onClick="closeEmailPops()" class="emailSignupClose" href="javascript://">x</a>
+<strong>STAY UP TO DATE!</strong>
+<p>Joining the email list for this book will allow the author to contact you to let you know about special offers and when updates for the book are available.</p>
+<div class='j_followBookForm'><div id='j_bookFollowForm'>
+<form action="//conqueringthecommandline.com/books/36/follow" accept-charset="UTF-8" data-remote="true" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<!-- %input{name: "name", type: "text", placeholder: "YOUR NAME"} -->
+<input name='email' placeholder='Your email address' type='text'>
+<input class='greyButton optClick_follow' data-disable-with='Submitting...' type='submit' value='Follow Author'>
+</form>
+
+<p id='j_bookFollowNotice' style='display:none'></p>
+</div>
+</div>
+</div>
+<script>
+  // setup book nav
+  $(function(){
+    Book.init({
+      title: "Conquering the Command Line",
+      path: "/book",
+      slug: "unix_commands",
+      isArticle: false,
+      s3_path_prefix: "8/unix_commands",
+      chapters: [{"title":"Frontmatter","number":0,"slug":"frontmatter","s3_url":"https://softcover.s3-us-west-2.amazonaws.com/8/unix_commands/html/frontmatter_fragment.html?X-Amz-Expires=432000\u0026X-Amz-Date=20201102T150519Z\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIAJMNNDDBSYVXVHGAA/20201102/us-west-2/s3/aws4_request\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=91861399a3b067bec59adb8dd19aefc2a82c4f992771e9fa909515c8c531d9e4"},{"title":"Chapter 1: Basics and Navigation","number":1,"slug":"basics","s3_url":"https://softcover.s3-us-west-2.amazonaws.com/8/unix_commands/html/basics_fragment.html?X-Amz-Expires=432000\u0026X-Amz-Date=20201102T150519Z\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIAJMNNDDBSYVXVHGAA/20201102/us-west-2/s3/aws4_request\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=f2c245668a8d69bbaa391c89caaf429da6231c486550be29d1795a84f9bd095f"},{"title":"Chapter 2: Ack/Ag","number":2,"slug":"ack_ag","s3_url":"https://softcover.s3-us-west-2.amazonaws.com/8/unix_commands/html/ack_ag_fragment.html?X-Amz-Expires=432000\u0026X-Amz-Date=20201102T150519Z\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIAJMNNDDBSYVXVHGAA/20201102/us-west-2/s3/aws4_request\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=1333690878dad4025506facb222116a9ef4c092773de32e1e7753d5b3e7fddbc"},{"title":"Chapter 3: cURL","number":3,"slug":"curl","s3_url":"https://softcover.s3-us-west-2.amazonaws.com/8/unix_commands/html/curl_fragment.html?X-Amz-Expires=432000\u0026X-Amz-Date=20201102T150519Z\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIAJMNNDDBSYVXVHGAA/20201102/us-west-2/s3/aws4_request\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=04ea6a801564062a58d51d68d06cb2b9681c23efe27d37ecaa201c479dab56c9"},{"title":"Chapter 4: Find","number":4,"slug":"find","s3_url":"https://softcover.s3-us-west-2.amazonaws.com/8/unix_commands/html/find_fragment.html?X-Amz-Expires=432000\u0026X-Amz-Date=20201102T150520Z\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIAJMNNDDBSYVXVHGAA/20201102/us-west-2/s3/aws4_request\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=eb25453bbd20b6833b8237a164ab07dbcd8f9b5f7c36a48719633b6194b89850"},{"title":"Chapter 5: Grep","number":5,"slug":"grep","s3_url":"https://softcover.s3-us-west-2.amazonaws.com/8/unix_commands/html/grep_fragment.html?X-Amz-Expires=432000\u0026X-Amz-Date=20201102T150520Z\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIAJMNNDDBSYVXVHGAA/20201102/us-west-2/s3/aws4_request\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=eb88b63a9cd1a9fa0082ddfefad2bcde106d0beee83ca6ccbbeb610d1f58097a"},{"title":"Chapter 6: Ps","number":6,"slug":"ps","s3_url":"https://softcover.s3-us-west-2.amazonaws.com/8/unix_commands/html/ps_fragment.html?X-Amz-Expires=432000\u0026X-Amz-Date=20201102T150520Z\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIAJMNNDDBSYVXVHGAA/20201102/us-west-2/s3/aws4_request\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=93859d1622a571adf61d84c6f58f766370192f28d8314869ce8851b138d2794a"},{"title":"Chapter 7: Sed","number":7,"slug":"sed","s3_url":"https://softcover.s3-us-west-2.amazonaws.com/8/unix_commands/html/sed_fragment.html?X-Amz-Expires=432000\u0026X-Amz-Date=20201102T150520Z\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIAJMNNDDBSYVXVHGAA/20201102/us-west-2/s3/aws4_request\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=ee73c54c62c5512345d66c685df96b81bccc83c20fd3a617ca32dfba1ac45a33"},{"title":"Chapter 8: Tar","number":8,"slug":"tar","s3_url":"https://softcover.s3-us-west-2.amazonaws.com/8/unix_commands/html/tar_fragment.html?X-Amz-Expires=432000\u0026X-Amz-Date=20201102T150520Z\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIAJMNNDDBSYVXVHGAA/20201102/us-west-2/s3/aws4_request\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=197559bfbebae28285a47196ff9512d2f2b92745fb1084e4a4884f8076935dbc"},{"title":"Chapter 9: Extras","number":9,"slug":"extras","s3_url":"https://softcover.s3-us-west-2.amazonaws.com/8/unix_commands/html/extras_fragment.html?X-Amz-Expires=432000\u0026X-Amz-Date=20201102T150520Z\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIAJMNNDDBSYVXVHGAA/20201102/us-west-2/s3/aws4_request\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=72bb899d5026eaad9a4ab08bd5f67ae9a70f74d441bca05939c2b0ec083330b0"}],
+      full_page: false,
+      custom_math: ""
+    });
+    Book.scrolling();
+  });
+</script>
+
+<div class='footer clearfix'>
+<div class='wrapper' id='hide_chromeFooter'>
+<em>powered by</em>
+<a class="logo" href="http://www.softcover.io"><img src="https://www.softcover.io/assets/logo_foot-2bb1fc62a4fe7cfdd8223560afd5fea72ad2696d7a3886cfe471ef18a80a1fb4.png" alt="Logo foot" />
+</a></div>
+</div>
+
+</div>
+</div>
+<script type="text/javascript">
+  (function() {
+    window._pa = window._pa || {};
+    // _pa.orderId = "myOrderId"; // OPTIONAL: attach unique conversion identifier to conversions
+    // _pa.revenue = "19.99"; // OPTIONAL: attach dynamic purchase values to conversions
+    // _pa.productId = "myProductId"; // OPTIONAL: Include product ID for use with dynamic ads
+    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+    pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/54eea5d20a23b37d87000040.js";
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+  })();
+</script>
+
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0023/6713.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+</body>
+</html>
+∞2Ï∫	C      _† -_°O—BHTÅ_† 0   0    :http://conqueringthecommandline.com/book/basics necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Server: Cowboy
+Date: Mon, 02 Nov 2020 15:05:20 GMT
+Status: 200 OK
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 25654
+Etag: W/"01305c96ece5b906f6ad390ddd84bff3"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: bc36ef17-0ec5-48fe-b727-3d54b660e466
+X-Runtime: 0.833712
+Via: 1.1 vegur
+ original-response-headers Server: Cowboy
+Connection: keep-alive
+Date: Mon, 02 Nov 2020 15:05:20 GMT
+Status: 200 OK
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 25654
+Etag: W/"01305c96ece5b906f6ad390ddd84bff3"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: ahoy_visitor=6979711c-6240-4366-969e-cde5e6dabb44; path=/; expires=Wed, 02 Nov 2022 14:05:19 -0000
+Set-Cookie: ahoy_visit=ca82bb32-6e48-4b5f-bd64-329bb82b9c37; path=/; expires=Mon, 02 Nov 2020 19:05:19 -0000
+Set-Cookie: _polytexnic_session=QlkvK0wxdnFFcmZZWEZtUU00MEZGUzZBeFBBUURFVklNSGkrZGlaeVJjN2VEU0Nwb0RWNWtLaEtYeUdjZXJkWlhkdUVSUWpST3p5cjF3VjVOUERuZWZJOVpvSWdWbHFxRkNwKzRBU2hWcDhzdWowTHVaY091ZkFGZmo2ZjRnNEcydjdBdzRERW1ISGV5L0xUWXAvbnBVUjNsUVZGaHVmTnhIZUpzN3dITjA4WXYzRzNSY2xZN0o5QnhEVy9iRGVFLS00RUo5REFtLzE1TWRaMkU4WmNyZHRBPT0%3D--788092ab4830d3fb67996fa5dc655fff49d096a6; path=/; HttpOnly
+X-Request-Id: bc36ef17-0ec5-48fe-b727-3d54b660e466
+X-Runtime: 0.833712
+Via: 1.1 vegur
+ ctid 1 uncompressed-len 0 predictor::resource-count 37 predictor::http://cdn.optimizely.com/js/1197428788.js 1,1,1604329517,4096 predictor::http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,300,700|Open+Sans+Condensed:700|Josefin+Slab:400italic 1,1,1604329517,4096 predictor::https://www.softcover.io/assets/reading-8092fc444e0fbcf4a66d4b74e33a1d71c863e5d023b6f3c3f707a90dff5c9345.css 1,1,1604329517,4096 predictor::https://www.softcover.io/assets/print-f4bd271fd41b8086410e78c14546336605a29e5c72c2d08b094c7ccfe03de6c4.css 1,1,1604329517,4096 predictor::http://code.jquery.com/jquery-2.0.3.min.js 1,1,1604329517,4096 predictor::http://cdn.jsdelivr.net/formalize/0.1/js/jquery.formalize.min.js 1,1,1604329517,4096 predictor::http://cdn.jsdelivr.net/underscorejs/1.6.0/underscore-min.js 1,1,1604329517,4096 predictor::https://js.stripe.com/v3/ 1,1,1604329517,4096 predictor::https://www.google.com/jsapi 1,1,1604329517,4096 predictor::https://learnenough.postaffiliatepro.com/scripts/trackjs.js 1,1,1604329517,4096 predictor::https://learnenough.postaffiliatepro.com/scripts/voa0j7 1,1,1604329517,4096 predictor::https://www.softcover.io/assets/application-8593982fae11c54d4ac1c57bd560360f36ea39c61b005629a7c0b92904f93737.js 1,1,1604329517,4096 net-response-time-onstart 2964 net-response-time-onstop 3261 predictor::http://www.softcover.io/books/36/custom_domain_js.js?is_anthology=false?nocache=0.03492001514517762 1,1,1604329517,4096 predictor::https://www.softcover.io/assets/logo-cb2b799a5b84e014246f782d1e9330447da7f588ec6ca125890c7cdcfcf9f460.png 1,1,1604329517,4096 predictor::https://softcover.s3-us-west-2.amazonaws.com/8/unix_commands/html/stylesheets/custom.css?X-Amz-Expires=14400&X-Amz-Date=20201102T150519Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJMNNDDBSYVXVHGAA/20201102/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=21233edfb4eb78675598c11fb2d34e3e38f642d948d92ac9b7bc03655c7d9887 1,1,1604329517,4096 predictor::https://softcover.s3.amazonaws.com/8/unix_commands/images/cover-web.png 1,1,1604329517,4097 predictor::https://www.softcover.io/assets/cover_bg-a267f19fd8b824c7c0873181647cc75bb6d54a494aa1942f1e24244792c9c684.png 1,1,1604329517,4096 predictor::https://www.softcover.io/assets/empty_content-bfd29214ec2dceaedc8664ee5d1379fb01c94658fb95ac9edde6d31d3d0e7484.png 1,1,1604329517,4096 predictor::https://www.softcover.io/assets/logo_foot-2bb1fc62a4fe7cfdd8223560afd5fea72ad2696d7a3886cfe471ef18a80a1fb4.png 1,1,1604329517,4096 predictor::https://www.softcover.io/assets/bg-2e954c1b65f8508a0daca67f74c98e2bcee94ef8f173176960929d08a7dcb3e1.gif 1,1,1604329517,4096 predictor::http://www.google-analytics.com/analytics.js 1,1,1604329517,4096 predictor::https://platform.twitter.com/widgets.js 1,1,1604329517,4096 predictor::http://connect.facebook.net/en_US/sdk.js 1,1,1604329517,4096 predictor::https://www.softcover.io/assets/standin_bg_book.jpg 1,1,1604329517,4096 predictor::https://www.softcover.io/assets/icons-9ab6696850d63912f3f93721176d6b9fce77cdb5db3a2265116a84e095956547.png 1,1,1604329517,4096 predictor::https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0b.woff2 1,1,1604329517,4096 predictor::https://fonts.gstatic.com/s/opensanscondensed/v15/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff0GmDuXMRw.woff2 1,1,1604329517,4096 predictor::https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWyV9hrIqM.woff2 1,1,1604329517,4096 predictor::http://tag.perfectaudience.com/serve/54eea5d20a23b37d87000040.js 1,1,1604329517,4096 predictor::https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2 1,1,1604329517,4096 predictor::http://dnn506yrbagrg.cloudfront.net/pages/scripts/0023/6713.js?445647 1,1,1604329517,4096 predictor::https://connect.facebook.net/en_US/sdk.js?hash=656e914e4f022b1010bf9d1d8376dabe 1,1,1604329517,4096 predictor::https://js-agent.newrelic.com/nr-1184.min.js 1,1,1604329517,4096 predictor::https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML 1,1,1604329517,4096 predictor::http://script.crazyegg.com/pages/scripts/0023/6713.js 1,1,1604329517,4096 predictor::https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/config/TeX-AMS_HTML.js?V=2.7.1 1,1,1604329517,4096 predictor::https://script.crazyegg.com/pages/versioned/common-scripts/11.1.143.js 1,1,1604329517,4096   d6
