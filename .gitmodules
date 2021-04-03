@@ -1,0 +1,3 @@
+[submodule "git_test/netlify"]
+	path = git_test/netlify
+	url = https://github.com/minospeed007/git_test
